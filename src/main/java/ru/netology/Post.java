@@ -14,32 +14,32 @@ public class Post {
         return;
     }
 
-    public void setIdText(){
-        this.id=id;
+    public void setIdText() {
+        this.id = id;
     }
 
-    public void setVisionText(){
-        this.text=text;
+    public void setVisionText() {
+        this.text = text;
     }
 
-    public void urlImageVision(){
-        this.urlImage=urlImage;
+    public void urlImageVision() {
+        this.urlImage = urlImage;
     }
 
-    public void setDateText(){
-        this.date=date;
+    public void setDateText() {
+        this.date = date;
     }
 
-    public void setCommentText(){
-        this.comment=comment;
+    public void setCommentText() {
+        this.comment = comment;
     }
 
-    public void setHeartText(){
-        this.heart=heart;
+    public void setHeartText() {
+        this.heart = heart;
     }
 
-    public void setRepostText(){
-        this.repost=repost;
+    public void setRepostText() {
+        this.repost = repost;
     }
 
 }
