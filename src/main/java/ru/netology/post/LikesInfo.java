@@ -2,9 +2,9 @@ package ru.netology.post;
 
 public class LikesInfo {
     private int count;
-    private int[] userLike;
-    private int[] canLike;
-    private int[] canPiblish;
+    private boolean userLike;
+    private boolean canLike;
+    private boolean canPiblish;
 
     public int getCount() {
         return count;
@@ -15,29 +15,29 @@ public class LikesInfo {
         return this;
     }
 
-    public int[] getUserLike() {
+    public boolean getUserLike() {
         return userLike;
     }
 
-    public LikesInfo setUserLike(int[] userLike) {
+    public LikesInfo setUserLike(boolean userLike) {
         this.userLike = userLike;
         return this;
     }
 
-    public int[] getCanLike() {
+    public boolean getCanLike() {
         return canLike;
     }
 
-    public LikesInfo setCanLike(int[] canLike) {
+    public LikesInfo setCanLike(boolean canLike) {
         this.canLike = canLike;
         return this;
     }
 
-    public int[] getCanPiblish() {
+    public boolean getCanPiblish() {
         return canPiblish;
     }
 
-    public LikesInfo setCanPiblish(int[] canPiblish) {
+    public LikesInfo setCanPiblish(boolean canPiblish) {
         this.canPiblish = canPiblish;
         return this;
     }

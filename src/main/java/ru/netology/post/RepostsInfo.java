@@ -2,7 +2,7 @@ package ru.netology.post;
 
 public class RepostsInfo {
     private int count;
-    private int[] userReposted;
+    private boolean userReposted;
 
     public int getCount() {
         return count;
@@ -13,11 +13,11 @@ public class RepostsInfo {
         return this;
     }
 
-    public int[] getUserReposted() {
+    public boolean getUserReposted() {
         return userReposted;
     }
 
-    public RepostsInfo setUserReposted(int[] userReposted) {
+    public RepostsInfo setUserReposted(boolean userReposted) {
         this.userReposted = userReposted;
         return this;
     }
